@@ -10,9 +10,9 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	title:{
 		text: "Vanguard Forecast (2020-2021)"
 	},
-	axisX: {
-		interval: 4,
-	}
+	axisY:{
+		includeZero: false
+	},
 	data: [{        
 		type: "line",
       	indexLabelFontSize: 16,
@@ -834,5 +834,3 @@ chart.render();
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </body>
 </html>
-
-
