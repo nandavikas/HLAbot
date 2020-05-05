@@ -8,8 +8,12 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	animationEnabled: true,
 	theme: "light2",
 	title:{
-		text: "ETF market affected by COVID-19"
+		text: "Vanguard Forecast (2020-2021)"
 	},
+	axisX: {
+		interval: 4,
+		title: "QoQ Growth (%)"
+	}
 	data: [{        
 		type: "line",
       	indexLabelFontSize: 16,
